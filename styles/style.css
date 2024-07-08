@@ -13,7 +13,7 @@ html, body{
     height: 100%;
 }
 
-/* banner styles starts */
+/* banner styles */
 .banner-container{
     max-width: 1320px;
     min-height: 600px;
@@ -35,6 +35,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: "Merriweather", serif;
 }
 
@@ -107,7 +108,7 @@ html, body{
     height: 100%;
 }
 
-/* party styles starts */
+/* party styles */
 .party-container{
     width: 1320px;
     height: 600px;
@@ -156,4 +157,81 @@ html, body{
     width: 319.83px;
     height: 464.66px;
     margin-right: 138px;
+}
+
+/* holiday styles */
+.holiday-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-content{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.holiday-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    font-family: "Merriweather", serif;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holiday-content h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    color: rgb(7, 2, 17);
+}
+
+.holiday-content p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.holidays{
+    color: rgb(255, 0, 0);
+}
+
+.solidcolor{    
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    top: 76.7%;
+}
+
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    margin-top: 64px;
+    margin-left: 60.83px;
+    display: flex;
+}
+
+.giftbox-discount{
+    display: flex;
+}
+
+.discount{
+    width: 305.69px;
+    height: 305.69px;
+    margin-top: 141px;
+    padding-left: 177.54px;
 }
