@@ -15,8 +15,8 @@ html, body{
 
 /* banner styles */
 .banner-container{
-    max-width: 1320px;
-    min-height: 600px;
+    width: 1320px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 20px;
     background-image: 
@@ -401,10 +401,77 @@ html, body{
     height: 100%;
 }
 
+/* newsletter styles */
+.newsletter-content{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.newsletter-content img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+}
+
+.newsletter-content h1{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.newsletter{
+    width: 648px;
+    height: 72px;
+    margin-top: 48px;
+}
+
+.email{
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 50px 0px 0px 50px;
+    padding: 24px 56px;
+}
+
+.subscribe-button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 24px 56px;
+    cursor: pointer;
+}
+
 /* footer styles */
 .footer-container{ 
     height: 609px;
     background-color: rgb(7, 2, 17);
+    margin-top: 120px;
 }
 
 .footer-content{
